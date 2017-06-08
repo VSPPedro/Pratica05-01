@@ -24,4 +24,34 @@ public class Livro {
 		this.publicado= publicado;
 		this.paginas= paginas;
 	}
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public Date getPublicado() {
+		return publicado;
+	}
+	public void setPublicado(Date publicado) {
+		this.publicado = publicado;
+	}
+	public int getPaginas() {
+		return paginas;
+	}
+	public void setPaginas(int paginas) {
+		this.paginas = paginas;
+	}
 }
